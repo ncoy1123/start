@@ -18,6 +18,15 @@ yes | sudo yum install blender
 yes | sudo yum install youtube-dl
 yes | sudo yum-get install virt-manager
 yes | sudo yum install gimp
+#Arch
+yes | sudo pacman -Syu
+yes | sudo pacman -s audacity
+yes | sudo pacman -s qemu
+yes | sudo pacman -s handbrake
+yes | sudo pacman -s blender
+yes | sudo pacman -s youtube-dl
+yes | sudo pacman -s virt-manager
+yes | sudo pacman -s gimp
 
 
 
